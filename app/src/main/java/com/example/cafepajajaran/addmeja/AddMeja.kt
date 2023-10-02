@@ -11,6 +11,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.firebase.database.*
 
 class AddMeja : AppCompatActivity() {
+
     private lateinit var mejaRecyclerView: RecyclerView
     private lateinit var mejaList: ArrayList<MejaModel>
     private lateinit var dbRef: DatabaseReference

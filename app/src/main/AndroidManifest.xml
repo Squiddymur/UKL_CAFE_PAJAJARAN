@@ -13,6 +13,20 @@
         android:theme="@style/Theme.CafePajajaran"
         tools:targetApi="31">
         <activity
+            android:name=".addtransaksi.AddTransaksi"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".kasiractivity.KasirActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".DetailUser"
             android:exported="false">
             <meta-data

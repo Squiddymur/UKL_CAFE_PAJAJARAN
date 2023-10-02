@@ -65,20 +65,13 @@
             android:minHeight="48dp"
 />
 
-        <EditText
-            android:id="@+id/etSConfPassword"
+        <Spinner
+            android:id="@+id/userTypeSpinner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
-            android:layout_marginTop="15dp"
             android:layout_marginRight="15dp"
-            android:autofillHints="password"
-            android:ems="10"
-            android:hint="@string/confirm_password"
-            android:inputType="textPassword"
-            android:minHeight="48dp"
-
-            tools:ignore="TextContrastCheck" />
+            android:layout_marginTop="8dp" />
 
         <Button
             android:id="@+id/btnSSigned"
